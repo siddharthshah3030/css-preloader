@@ -36,6 +36,8 @@ document.body.appendChild(loader);
 // Function to hide the overlay
 function hideOverlay() {
     overlay.style.display = 'none';
+        loader.style.display = 'none'; // Hide the loader as well
+
 }
 
 // Add an event listener to hide the overlay when all external JS files are loaded
